@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #212121;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo img{
+ width:80px;
+ height:80px;
+}
+.logo:hover {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #b5d654;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 12px 34px;
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background: linear-gradient(91.3deg, #16a9b1 -31.8%, #b5d654 140.15%);
+    transition: 1s;
+}
+
+nav .fa-solid {
+    display: none;
+}
+
+.text-box {
+    width: 50%;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.text-box h1 {
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.img1 img {
+    /* border-style: solid;
+    border-color: aliceblue;
+    border-width: 2px; */
+    position: absolute;
+    right: 40px;
+    top: 248px;
+    max-width: 44%;
+    height: auto;
+    text-align: right;
+}
+
+.mindstronger {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 600;
+}
+
+.minder {
+    display: inline;
+}
+
+.minder img {
+    position: relative;
+}
+
+.colorsatri {
+    background: #383838;
+    width: 60px;
+}
+
+.mind {
+    border: none;
+    background: #383838;
+    color: #fff;
+    width: 170px;
+    height: 170px;
+    margin: 40px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    position: relative;
+    font-size: 20px;
+}
+
+.mind:hover {
+    background: #383838;
+    color: #fff;
+}
+
+.track {
+    padding: 150px;
+    color: #fff;
+}
+
+.track h1 {
+    text-align: left;
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.track p {
+    text-align: left;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.track a {
+    text-align: left;
+}
+.img2 img{
+	position:relative;
+}
+.news {
+    background: #212121;
+}
+
+.newsd {
+    align-content: center;
+    width: 80%;
+    height: 400px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 20px 20px;
+    text-align: center;
+    margin-left: 155px;
+}
+
+.newsd h1 {
+    background: #fff;
+    color: black;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.newsd a {
+    padding-left: 0px;
+    padding-right: 15px;
+    text-align: center;
+    background: #fff;
+}
+
+.details {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+    
+.logo1 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo1 img{
+ width:80px;
+ height:80px;
+}
+.logo1:hover {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.t1 {
+    text-align: right;
+    font-size: 20px;
+}
+
+/* .banner {
+    width: 120px;
+    height: 300px;
+} */
+
+.t1 a,
+.t2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ac {
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+
+.toi {
+    width: 182px;
+    height: 64px;
+}
+
+.tbi {
+    width: 63px;
+    height: 63px;
+}
+
+.cnbc {
+    width: 67px;
+    height: 64px;
+}
+
+.tie {
+    width: 300px;
+    height: 126px;
+}
+
+.ys {
+    width: 182px;
+    height: 64px;
+}
+
+.ent {
+    width: 170px;
+    height: 65px;
+}
+

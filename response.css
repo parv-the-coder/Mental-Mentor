@@ -1,0 +1,125 @@
+@media only screen and (max-width:1320px) {
+    .q2 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and(max-width:972px) {
+    .icon {
+        width: 22%;
+    }
+}
+
+@media only screen and (max-width:797px) {
+    .icon {
+        width: 35%;
+    }
+
+    header h1 {
+        margin-top: 26px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .navbar-nav {
+        /* float: left; */
+        margin-left: -90px !important;
+    }
+}
+
+@media only screen and (max-width:634px) {
+    .navbar-nav {
+        /* float: left; */
+        margin-left: -256px !important;
+        margin-top: 49px;
+    }
+
+    .name {
+        margin-top: -65px;
+    }
+
+    .logo {
+        margin-top: -65px;
+    }
+
+    .card {
+        top: -10px;
+    }
+
+    .card3 {
+        margin-left: 147px;
+    }
+
+    .q1 {
+        height: 68px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    .card .card1 {
+        width: 130px;
+        height: 116px;
+    }
+
+    .card .card2 {
+        width: 130px;
+        height: 116px;
+    }
+
+    .card3 {
+        width: 130px;
+        height: 116px;
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    header nav ul li {
+        position: relative;
+        padding: 0px 21px;
+        z-index: 2;
+    }
+
+    .q1 {
+        height: 107px;
+    }
+}
+
+@media only screen and (max-width:410px) {
+
+    .logo {
+        width: 10%;
+    }
+
+    header nav ul li {
+        padding: 0px 11px;
+    }
+
+    .card3 {
+        margin-left: 84px;
+    }
+}
+
+@media only screen and (max-width:353px) {
+    .card .card1 {
+        width: 105px;
+        height: 100px;
+    }
+
+    .card .card2 {
+        width: 105px;
+        height: 100px;
+    }
+
+
+    .card3 {
+        width: 105px;
+        height: 100px;
+    }
+
+    .q1 {
+        height: 146px;
+    }
+
+}

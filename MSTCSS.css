@@ -1,0 +1,159 @@
+ /* google fonts Golos text */
+ @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ * {
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+ }
+
+ :root {
+     --color-1: #2E2EA8;
+ }
+
+
+ body {
+     background-image: url('images/home_bg.png');
+     background-size: 100%;
+     background-repeat: no-repeat;
+     /* background-position: -30px -100px; */
+ }
+
+
+ header {
+     width: 100%;
+     height: 32vh;
+     overflow: hidden;
+ }
+
+
+ header nav {
+     width: 100%;
+     /* height: 15%; */
+     margin: auto;
+     border: 1px solid black;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ header nav ul {
+     list-style: none;
+     display: flex;
+     align-items: center;
+ }
+
+ header nav ul li {
+     position: relative;
+     padding: 3px 30px;
+     z-index: 2;
+ }
+
+
+ .icon {
+     width: 15%;
+     margin-left: 15%;
+ }
+
+
+ .logo {
+     width: 4%;
+ }
+
+
+ .name {
+     color: black;
+     font-size: 25px;
+     font-weight: 800;
+     text-decoration: none;
+ }
+
+ header nav ul li a {
+     color: var(--color-1);
+     font-size: 18px;
+     font-weight: 700;
+ }
+
+ header nav ul li a:hover {
+     color: var(--color-1);
+     text-decoration: none;
+ }
+
+
+ header h1 {
+     font-family: 'Golos Text', sans-serif;
+     ;
+     margin-top: 100px;
+     margin-left: 15px;
+     font-weight: 600;
+ }
+
+
+ .card {
+     display: flex;
+     position: relative;
+     /* border: 1px solid hotpink; */
+     height: 200px;
+     top: 80px;
+     margin-bottom: 100px;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding: 0px 50px;
+ }
+
+ .card .card1 {
+     display: flex;
+     background: #f1f1ff;
+     border-radius: 20px;
+     /* border: 1px solid black; */
+     width: 345px;
+     height: 300px;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 25px;
+     padding-top: 25px;
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+ }
+
+ h2 {
+     font-size: 22px;
+     font-weight: bold;
+     margin: 0px 24%;
+ }
+
+ .card .card1 .img2 {
+     width: 40%;
+ }
+
+ a {
+     color: #2E2EA8;
+ }
+
+ a:hover {
+     text-decoration: none;
+ }
+
+
+ .box {
+     width: 100%;
+     height: 100%;
+     /* background-color: red; */
+     position: relative;
+     animation-name: slide;
+     animation-duration: 2s;
+     animation-fill-mode: forwards;
+     animation-iteration-count: infinite;
+     animation-direction: alternate-reverse;
+ }
+
+ @keyframes slide {
+     0% {
+         transform: translateX(0);
+     }
+
+     100% {
+         transform: translateX(200px);
+     }
+ }

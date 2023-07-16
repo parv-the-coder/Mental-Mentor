@@ -1,0 +1,243 @@
+@media screen and (max-width:1320px) {
+
+	.ent {
+		height: 65px;
+	}
+
+}
+
+@media screen and (max-width: 992px) {
+	.t1 {
+		width: 50%;
+	}
+
+	.t3 {
+		width: 50%;
+	}
+
+	.t2 {
+		width: 50%;
+	}
+
+	.t4 {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width:930px) {
+	.ent {
+		width: 145px;
+	}
+}
+
+@media screen and (max-width:890px) {
+	.tie {
+		width: 200px;
+	}
+
+	.ys {
+		width: 155px;
+	}
+
+	.newsd {
+		margin-left: 98px;
+	}
+}
+
+@media screen and (max-width:860px) {
+	.img1 img {
+		right: 20px;
+	}
+}
+
+@media screen and (max-width:753px) {
+	.newsd {
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	.t2 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.t4 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.img2 img {
+		right: 60px;
+	}
+
+	.img1 img {
+		right: 0px;
+		width: 290px;
+		padding-right: 13px;
+	}
+
+	.text-box p {
+		font-size: 15px;
+	}
+
+	.text-box h1 {
+		font-size: 47px;
+	}
+}
+
+@media screen and (max-width:660px) {
+	.track {
+		padding: 70px;
+	}
+
+	.text-box {
+		width: 100%;
+		position: relative;
+		top: -10px;
+	}
+
+	.text-box h1 {
+		font-size: 62px;
+	}
+
+	.text-box p {
+		font-size: 30px;
+	}
+
+	.img1 img {
+		position: relative;
+		width: 100%;
+	}
+
+	.banner {
+		position: relative !important;
+		width: 100% !important;
+		top: 10px !important;
+		left: 154px;
+	}
+
+	.mindstronger {
+		position: relative;
+	}
+}
+
+@media screen and (max-width:615px) {
+	.logo {
+		font-size: 20px;
+	}
+
+	.logo1 {
+		font-size: 18px;
+	}
+
+	.text-box h1 {
+		font-size: 40px;
+	}
+
+	.text-box p {
+		font-size: 20px;
+	}
+
+	.tie {
+		width: 160px;
+	}
+
+	.ys {
+		width: 140px;
+	}
+
+	.ent {
+		width: 120px;
+	}
+
+	.details {
+		padding-top: 100px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.img2 img {
+		width: 500px;
+	}
+
+	.nav-links ul li a {
+		font-size: 18px;
+	}
+
+	.nav-links button {
+		width: 90px;
+		padding: 10px;
+	}
+
+	.mindstronger h1 {
+		font-size: 45px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:535px) {
+	.t1 {
+		font-size: 18px;
+	}
+
+	.toi {
+		width: 130px;
+	}
+
+	.tie {
+		width: 140px;
+	}
+
+	.ys {
+		width: 60px;
+	}
+
+	.ent {
+		width: 60px;
+	}
+
+	.img2 img {
+		width: 390px;
+		right: -10px;
+	}
+
+	.mindstronger h1 {
+		font-size: 40px;
+	}
+
+	.logo img {
+		width: 40px;
+		height: 40px;
+	}
+
+	nav {
+		padding: 10px;
+	}
+
+	.nav-links button {
+		width: 50px;
+		padding: 10px;
+		font-size: 14px;
+	}
+
+	.nav-links ul li {
+		padding: 6px 8px;
+	}
+
+	.details {
+		padding-top: 100px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.track {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media screen and (max-width:462px) {
+	.logo1 img {
+		margin-right: 68px;
+	}
+}
